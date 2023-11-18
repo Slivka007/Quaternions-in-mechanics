@@ -1,11 +1,5 @@
-//
-//  main.cpp
-//  quaterniona in mechanics
-//
-//  Created by Gleb Slivka on 11/18/23.
-//
-
 #include <iostream>
+#include "qauaternions.hpp""
 
 int main(int argc, const char * argv[]) {
     // insert code here...
