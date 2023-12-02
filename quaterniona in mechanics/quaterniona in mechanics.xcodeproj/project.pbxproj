@@ -23,8 +23,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		604599C32B08FDF8007A23C6 /* include.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = include.hpp; sourceTree = "<group>"; };
 		60AB7D3D2B08CE210034C896 /* quaterniona in mechanics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "quaterniona in mechanics"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60AB7D402B08CE210034C896 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		60AB7D482B08CEF10034C896 /* quaternions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = quaternions.hpp; sourceTree = "<group>"; };
+		60BD2F102B1A7EF400022DEC /* vector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = vector.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +44,7 @@
 		60AB7D342B08CE210034C896 = {
 			isa = PBXGroup;
 			children = (
-				60AB7D3F2B08CE210034C896 /* quaterniona in mechanics */,
+				60AB7D3F2B08CE210034C896 /* quaternions in mechanics */,
 				60AB7D3E2B08CE210034C896 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +57,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		60AB7D3F2B08CE210034C896 /* quaterniona in mechanics */ = {
+		60AB7D3F2B08CE210034C896 /* quaternions in mechanics */ = {
 			isa = PBXGroup;
 			children = (
+				60BD2F102B1A7EF400022DEC /* vector.hpp */,
 				60AB7D402B08CE210034C896 /* main.cpp */,
+				60AB7D482B08CEF10034C896 /* quaternions.hpp */,
+				604599C32B08FDF8007A23C6 /* include.hpp */,
 			);
-			path = "quaterniona in mechanics";
+			path = "quaternions in mechanics";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
