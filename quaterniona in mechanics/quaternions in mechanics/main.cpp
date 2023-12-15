@@ -2,16 +2,22 @@
 #include "quaternions.hpp"
 #include "vector.hpp"
 #include "math.hpp"
+#include "RigidBody.hpp"
 
-int main(int argc, const char * argv[]) {
+int main() {
+    // Начальные условия: углы ориентации и угловые скорости
+    RigidBody body;
+    body.state = {0.1, 0.2, 0.3, 0.4, 0.5, 0.6}; // Произвольные начальные условия
 
-    double arr[3][3];
-    arr[0][0] = 1; arr[0][1] = -2; arr[0][2] = -3;
-    arr[1][0] = -2; arr[1][1] = 1; arr[1][2] = -7;
-    arr[2][0] = -3; arr[2][1] = -7; arr[2][2] = 1;
-    
-    double* sol = findEigenvalues(arr);
-    //std::cout << sol[0] << ' ' << sol[1] << ' ' << sol[2];
-    
+    // Тензор инерции: [Ixx, Iyy, Izz]
+    body.inertia = {1.0, 2.0, 3.0}; // Произвольные значения
+
+    // Размер шага интегрирования и общая длительность интегрирования
+    double dt = 0.01;
+    double duration = 10.0;
+
+    // Интегрирование и вывод результатов
+    body.rungeKuttaIntegrate(body, dt, duration);
+
     return 0;
 }
