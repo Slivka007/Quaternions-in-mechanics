@@ -17,28 +17,6 @@ public:
         y_ = y;
         z_ = z;
     }
-    //Destructor
-    ~Vector(){
-        x_ = 0; y_ = 0; z_ = 0;
-    }
-    
-    //Copy constructor
-    template <typename T1>
-    Vector(const Vector<T1>& other){
-        x_ = other.x_;
-        y_ = other.y_;
-        z_ = other.z_;
-    }
-    
-    //Move constructor, noexcept - для оптимизации при исполользовании стандартных контейнеров
-    template <typename T1>
-    Vector(Vector<T1>&& other) noexcept {
-        x_ = other.x_;
-        y_ = other.y_;
-        z_ = other.z_;
-    }
-    
-    
     
     
     template<typename T1=T>
