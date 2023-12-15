@@ -1,20 +1,17 @@
 #include "include.hpp"
 #include "quaternions.hpp"
 #include "vector.hpp"
+#include "math.hpp"
 
 int main(int argc, const char * argv[]) {
-    Quaternion<double> a(1, 2, 3, 4);
-    Quaternion<double> b(5, 6, 7, 8);
-    Quaternion<double> c;
-    c = a + b;
-    std::cout << c.a() << ' ' << c.b() << ' ' << c.c() << ' ' << c.d() << std::endl;
-    c = a * b;
-    std::cout << c.a() << ' ' << c.b() << ' ' << c.c() << ' ' << c.d() << std::endl;
+
+    double arr[3][3];
+    arr[0][0] = 1; arr[0][1] = -2; arr[0][2] = -3;
+    arr[1][0] = -2; arr[1][1] = 1; arr[1][2] = -7;
+    arr[2][0] = -3; arr[2][1] = -7; arr[2][2] = 1;
     
-    Vector<int> f1(1, 2, 3);
-    Vector<int> f2(1, 2, 3);
-    Vector<int> f3;
-    f3 = f1 + f2;
+    double* sol = findEigenvalues(arr);
+    //std::cout << sol[0] << ' ' << sol[1] << ' ' << sol[2];
     
     return 0;
 }
