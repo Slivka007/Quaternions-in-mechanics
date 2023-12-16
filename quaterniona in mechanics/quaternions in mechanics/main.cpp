@@ -4,12 +4,10 @@
 #include "math.hpp"
 #include "RigidBody.hpp"
 #include "simulation.hpp"
+#include "rotation of the vector.hpp"
 
 int main() {
     simulation();
-
-
-    
-    
+    rotation();
     return 0;
 }
