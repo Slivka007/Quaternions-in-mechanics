@@ -17,7 +17,7 @@
 ## Полезные ссылки
 - [Тензор инерции](https://ru.wikipedia.org/wiki/Тензор_инерции)
 - [Уравнения Эйлера](https://ru.wikipedia.org/wiki/Уравнения_Эйлера)
-- [Линейная алгебра. Э.Б.Винберг](https://mathprofi.com/uploads/files/2581_f_41_e.b.vinberg-kurs-algebry-2-e-izd.pdf))
+- [Линейная алгебра. Э.Б.Винберг](https://mathprofi.com/uploads/files/2581_f_41_e.b.vinberg-kurs-algebry-2-e-izd.pdf)
 - [Поворот вектора с помощью кватернионов](https://habr.com/ru/articles/255005/)
 - [Метод Рунге-Кутты](https://www.codesansar.com/numerical-methods/runge-kutta-rk-fourth-order-using-cpp-output.htm)
 - [Метод Якоби](http://prografix.narod.ru/rus_jacobi.html#:~:text=Идея%20метода%20Якоби%20состоит%20в,приводит%20к%20сходимости%20процесса%20диагональности.)
