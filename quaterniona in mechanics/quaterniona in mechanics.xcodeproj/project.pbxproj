@@ -26,6 +26,7 @@
 		604599C32B08FDF8007A23C6 /* include.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = include.hpp; sourceTree = "<group>"; };
 		6086E0F92B2C622000273123 /* math.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = math.hpp; sourceTree = "<group>"; };
 		6086E0FC2B2CD4C300273123 /* RigidBody.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RigidBody.hpp; sourceTree = "<group>"; };
+		6086E0FE2B2D413800273123 /* simulation.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = simulation.hpp; sourceTree = "<group>"; };
 		60AB7D3D2B08CE210034C896 /* quaterniona in mechanics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "quaterniona in mechanics"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60AB7D402B08CE210034C896 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		60AB7D482B08CEF10034C896 /* quaternions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = quaternions.hpp; sourceTree = "<group>"; };
@@ -68,6 +69,7 @@
 				604599C32B08FDF8007A23C6 /* include.hpp */,
 				6086E0F92B2C622000273123 /* math.hpp */,
 				6086E0FC2B2CD4C300273123 /* RigidBody.hpp */,
+				6086E0FE2B2D413800273123 /* simulation.hpp */,
 			);
 			path = "quaternions in mechanics";
 			sourceTree = "<group>";
